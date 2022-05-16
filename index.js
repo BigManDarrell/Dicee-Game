@@ -6,8 +6,8 @@
     document.querySelector(".player-1").textContent += " (" + randomNumber1 + ")";
     document.querySelector(".player-2").textContent += " (" + randomNumber2 + ")";
 
-    randomImg1 = "images/dice" + randomNumber1 + ".png";
-    randomImg2 = "images/dice" + randomNumber2 + ".png";
+    randomImg1 = "dice" + randomNumber1 + ".png";
+    randomImg2 = "dice" + randomNumber2 + ".png";
 
     document.querySelector(".img1").setAttribute("src",randomImg1);
     document.querySelector(".img2").setAttribute("src",randomImg2);
